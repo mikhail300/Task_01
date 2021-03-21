@@ -4,6 +4,7 @@ public class Task12 {
 // 12. Вычислить расстояние между двумя точками с данными координатами (х1, у1)и (x2, у2).
 	public static void task() {
 		System.out.println("12. Вычислить расстояние между двумя точками с данными координатами (х1, у1)и (x2, у2).");
+		
 		double x1;
 		double x2;
 		
@@ -24,8 +25,7 @@ public class Task12 {
 		
 		distance = Math.sqrt((x1 - x2)*(x1 - x2)+(y1 - y2)*(y1 - y2));
 				
-		
-		System.out.println("\t" +"расстояние между точками = " + distance + " ед.");
+		System.out.println("\t" +"Расстояние между точками = " + distance + " ед.");
 		System.out.println();
 	}
 
