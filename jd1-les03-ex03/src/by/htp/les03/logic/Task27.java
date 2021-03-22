@@ -16,6 +16,7 @@ public class Task27 {
 		b = b * b;
 		
 		System.out.println("\t" + "a^8 = " + b);
+		System.out.println();
 		
 		a = a * b;
 		

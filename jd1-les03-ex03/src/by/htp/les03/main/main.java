@@ -22,9 +22,9 @@ public class main {
 		Task25.task();
 		Task26.task();
 		Task27.task();
-//		Task28.task();
-//		Task29.task();
-//		Task30.task();
+		Task28.task();
+		Task29.task();
+		Task30.task();
 //		Task31.task();
 //		Task32.task();
 //		Task33.task();
