@@ -12,6 +12,7 @@ public class Task33 {
 		asciiCurrChar = (int) currChar;
 		
 		System.out.println("\t" + "Заданный символ " + currChar + " его номер " + asciiCurrChar);
+		System.out.println();
 		
 		char nextChar;
 		nextChar = (char) (asciiCurrChar + 1);

@@ -28,7 +28,13 @@ public class main {
 		Task31.task();
 		Task32.task();
 		Task33.task();
-//		Task34.task();
+		Task34.task();
+		Task35.task();
+//		Task36.task();
+//		Task37.task();
+//		Task38.task();
+//		Task39.task();
+//		Task30.task();
 	}
 
 }
