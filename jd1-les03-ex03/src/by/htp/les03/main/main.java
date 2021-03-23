@@ -30,7 +30,7 @@ public class main {
 		Task33.task();
 		Task34.task();
 		Task35.task();
-//		Task36.task();
+		Task36.task();
 //		Task37.task();
 //		Task38.task();
 //		Task39.task();
