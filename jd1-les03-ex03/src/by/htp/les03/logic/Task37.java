@@ -21,6 +21,7 @@ public class Task37 {
 		N = 11;
 		
 		System.out.println("\t" + "N = " + N);
+		System.out.println();
 		
 		if (100 > Math.abs(N) && Math.abs(N) > 9 && (N % 2) == 0) {
 			
@@ -34,8 +35,7 @@ public class Task37 {
 				
 		System.out.println();
 	}
-	
-	
+		
 	public static void part2() {
 		System.out.println("37. Составить линейную программу, печатающую значение true,");
 		System.out.println("если указанное высказывание является истинным, и false — в противном случае:");
@@ -45,6 +45,7 @@ public class Task37 {
 		N = 1011;
 		
 		System.out.println("\t" + "N = " + N);
+		System.out.println();
 		
 		int N0;
 		int N1;
@@ -68,6 +69,7 @@ public class Task37 {
 		
 		System.out.println();
 	}
+	
 	public static void part3() {
 		System.out.println("37. Составить линейную программу, печатающую значение true,");
 		System.out.println("если указанное высказывание является истинным, и false — в противном случае:");
@@ -77,6 +79,7 @@ public class Task37 {
 		N = 111;
 		
 		System.out.println("\t" + "N = " + N);
+		System.out.println();
 		
 		int N0;
 		int N1;
@@ -98,30 +101,103 @@ public class Task37 {
 		
 		System.out.println();
 	}
+	
 	public static void part4() {
 		System.out.println("37. Составить линейную программу, печатающую значение true,");
 		System.out.println("если указанное высказывание является истинным, и false — в противном случае:");
-		System.out.println("\t" + "4 Точка с координатами (х, у) принадлежит части плоскости, лежащей между прямыми х= т, х= п (т<п).");
+		System.out.println("\t" + "4 Точка с координатами (х, у) принадлежит части плоскости, лежащей между прямыми х= m, х= n (m<n).");
 
+		double x;
+		double y;
 		
+		x = 6;
+		y = 5;
+		
+		System.out.println("\t" + "Точка с координатами x = " + x + ", y = " + y);
+		
+		double m;
+		double n;
+		
+		m = 2;
+		n = 5;
+		
+		System.out.println("\t" + "Прямая 1 x = " + m + ", прямая 2 x = " + n);
+		System.out.println();
+		
+		if (x >= m && n >= x) {
+			
+			System.out.println("\t" + "true");
+			
+		}else {
+			
+			System.out.println("\t" + "false");
+			
+		}
 		
 		System.out.println();
 	}
+	
 	public static void part5() {
 		System.out.println("37. Составить линейную программу, печатающую значение true,");
 		System.out.println("если указанное высказывание является истинным, и false — в противном случае:");
 		System.out.println("\t" + "5 Квадрат заданного трехзначного числа равен кубу суммы цифр этого числа.");
 
+		int N;
+		N = 345;
 		
+		System.out.println("\t" + "Трехзначное число N = " + N);
+		System.out.println();
+		
+		int N0;
+		int N1;
+		int N2;
+				
+		N0 = N / 1 % 10;
+		N1 = N / 10 % 10;
+		N2 = N / 100 % 10;
+		
+		if ((N * N) == ((N0 + N1 + N2) * (N0 + N1 + N2) * (N0 + N1 + N2))) {
+			
+			System.out.println("\t" + "true");
+			
+		}else {
+			
+			System.out.println("\t" + "false");
+			
+		}	
 		
 		System.out.println();
 	}
+	
 	public static void part6() {
 		System.out.println("37. Составить линейную программу, печатающую значение true,");
 		System.out.println("если указанное высказывание является истинным, и false — в противном случае:");
 		System.out.println("\t" + "6 Треугольник со сторонами а,b,с является равнобедренным.");
+
+		double a;
+		double b;
+		double c;
+		
+		a = 2;
+		b = 2;
+		c = 3;
+
+		System.out.println("\t" + "Треугольник со сторонами " + a + ", " + b + ", " + c );
+		System.out.println();
+		
+		if ((a == b && a != c) || (a == c && a != b) || (b == c && b != a) || (a == b && b == c)) {
+
+			System.out.println("\t" + "true");
+
+		}else{
+		
+			System.out.println("\t" + "false");
+
+		}
+		
 		System.out.println();
 	}
+	
 	public static void part7() {
 		System.out.println("37. Составить линейную программу, печатающую значение true,");
 		System.out.println("если указанное высказывание является истинным, и false — в противном случае:");
