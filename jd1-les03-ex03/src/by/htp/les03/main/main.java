@@ -31,7 +31,15 @@ public class main {
 		Task34.task();
 		Task35.task();
 		Task36.task();
-//		Task37.task();
+		Task37.part1();
+		Task37.part2();
+		Task37.part3();
+		Task37.part4();
+		Task37.part5();
+		Task37.part6();
+		Task37.part7();
+		Task37.part8();
+		Task37.part9();
 //		Task38.task();
 //		Task39.task();
 //		Task30.task();
