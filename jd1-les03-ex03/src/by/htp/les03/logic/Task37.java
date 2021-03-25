@@ -275,11 +275,11 @@ public class Task37 {
 				
 		if (y == a * x * x + b * x + c) {
 			
-			System.out.print("\t" + "true");
+			System.out.println("\t" + "true");
 			
 		}else{
 			
-			System.out.print("\t" + "false");
+			System.out.println("\t" + "false");
 			
 		}
 		
