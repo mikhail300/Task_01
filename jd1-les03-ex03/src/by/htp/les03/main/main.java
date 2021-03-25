@@ -43,8 +43,8 @@ public class main {
 		Task38.part1();
 		Task38.part2();
 		Task38.part3();
-//		Task39.task();
-//		Task30.task();
+		Task39.task();
+		Task40.task();
 	}
 
 }
