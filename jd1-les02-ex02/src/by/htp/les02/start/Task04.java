@@ -1,6 +1,6 @@
 package by.htp.les02.start;
 
-//	4. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
+// 4. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
 public class Task04 {
 
 	public static void main(String[] args) {

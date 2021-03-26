@@ -1,6 +1,6 @@
 package by.htp.les02.start;
 
-//	1. Даны два действительных числа х и у. Вычислить их сумму, разность, произведение и частное.
+// 1. Даны два действительных числа х и у. Вычислить их сумму, разность, произведение и частное.
 public class Task01 {
 
 	public static void main(String[] args) {
@@ -25,5 +25,4 @@ public class Task01 {
 		System.out.println(x + " * " + y + " = " + mulXY);
 		System.out.println(x + " / " + y + " = " + divXY);
 	}
-
 }
